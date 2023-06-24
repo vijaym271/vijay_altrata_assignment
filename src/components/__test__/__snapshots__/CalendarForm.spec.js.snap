@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar Form Snapshot should match dom snapshot 1`] = `
+<div
+  className="col-md-3 mx-auto"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7"
+      >
+        <input
+          className="form-control"
+          data-testid="calendarInput"
+          name="calendar"
+          onChange={[Function]}
+          placeholder="eg - 20/5/2023"
+          value=""
+        />
+      </div>
+      <div
+        className="col-md-5"
+      >
+        <button
+          className="btn btn-primary"
+          data-testid="calendarFormSubmit"
+          type="submit"
+        >
+          Get Calendar
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`CalendarForm Snapshot should match dom snapshot 1`] = `
+<div
+  className="col-md-3 mx-auto"
+>
+  <form
+    data-testid="calendarForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7"
+      >
+        <input
+          className="form-control"
+          data-testid="calendarInput"
+          name="calendar"
+          onChange={[Function]}
+          placeholder="eg - 20/5/2023"
+          value=""
+        />
+      </div>
+      <div
+        className="col-md-5"
+      >
+        <button
+          className="btn btn-primary"
+          data-testid="calendarFormSubmit"
+          type="submit"
+        >
+          Get Calendar
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

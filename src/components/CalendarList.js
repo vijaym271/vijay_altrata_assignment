@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import Calendar from "./CustomCalendar";
+import Calendar from "./Calendar";
 import { useCallback } from "react";
 import { removeCalendar } from "../redux/slices/calendarSlice";
 

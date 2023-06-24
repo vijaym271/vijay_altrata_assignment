@@ -20,13 +20,13 @@ const CalendarForm = () => {
     const handleChange = (e) => setDate(e.target.value);
 
     return <div className="col-md-3 mx-auto">
-        <form onSubmit={handleSubmit}>
+        <form data-testid="calendarForm" onSubmit={handleSubmit}>
             <div className="row">
                 <div className="col-md-7">
-                    <input className="form-control" name="calendar" value={date} onChange={handleChange} placeholder="eg - 20/5/2023" />
+                    <input data-testid="calendarInput" className="form-control" name="calendar" value={date} onChange={handleChange} placeholder="eg - 20/5/2023" />
                 </div>
                 <div className="col-md-5">
-                    <button className="btn btn-primary" type="submit">Get Calendar</button>
+                    <button data-testid="calendarFormSubmit" className="btn btn-primary" type="submit">Get Calendar</button>
                 </div>
             </div>
         </form>
